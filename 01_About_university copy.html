@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="00_University.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="sub-header">
+         <nav>
+            <h2>shasom</h2>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTENT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+         </nav>
+         <h1>About Us</h1> <!-- title -->   
+        </section>
+
+<!-- -------------About us content------------ -->
+
+<section class="About-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are world's largest university</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni debitis aspernatur sunt. Quasi tempora illum explicabo numquam, unde eveniet, veniam dignissimos at labore omnis laborum maiores aliquid nobis deleniti recusandae.</p>
+                <a href="" class="hero-btn">Explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="./WhatsApp Image 2023-08-05 at 15.54.37.jpg" alt="">
+            </div>
+        </div>
+
+</section>
+
+<!-- ---------------footer------------ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi labore ab quae, sint enim voluptatibus quasi,<br> tenetur error, eaque voluptas repudiandae similique ad exercitationem corporis!</p>
+    <div class="icons">
+       <i class="fa fa-facebook" ></i>
+       <i class="fa fa-twitter" ></i>
+       <i class="fa fa-instagram" ></i>
+       <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>Made width  <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+<!-- ---------Javascript for toggle Menu--------- -->
+<script>
+    var navlinks=document.getElementById("navlinks")
+
+    function showmenu(){
+        navlinks.style.right="0" 
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px" 
+    }
+</script>
+
+</body>
+</html>
